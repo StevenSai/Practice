@@ -22,11 +22,13 @@ public class Cars {
 	@Override
 	public String toString() {
 		if(TakeThings&&TakePerson){
-			return  name + "\t\t载客数" + PersonNum + "人\t\t载货数" + ThingsNum + "吨\t\t价格" + Price + "元";
+			return  name + " 载客数" + PersonNum + "人 载货数" + ThingsNum + "吨 价格" + Price + "元/天";
 		}else if(TakeThings){
-			return  name + "\t\t载货数" + ThingsNum + "吨\t\t价格" + Price + "元";
+			//return  name + "载货数" + ThingsNum + "吨价格" + Price + "元";
+			return  name  + " 载货数" + ThingsNum + "吨 价格" + Price + "元/天";
 		}else{
-			return  name + "\t\t载客数" + PersonNum + "人\t\t价格" + Price + "元";
+			//return  name + "载客数" + PersonNum + "人价格" + Price + "元";
+			return  name + " 载客数" + PersonNum + "人 价格" + Price + "元/天";
 		}
 	}
 	

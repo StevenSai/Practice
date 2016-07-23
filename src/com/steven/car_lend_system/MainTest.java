@@ -23,7 +23,10 @@ public class MainTest {
 		
 		if(Step1){
 			SystemRuning.Print(cars);
+			SystemRuning.GetInput(cars);
 		}
+		
+		System.out.println("谢谢使用！");
 		
 	}
 }
